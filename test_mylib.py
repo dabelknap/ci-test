@@ -7,4 +7,4 @@ def test_english():
 
 def test_french():
     greeter = mylib.Greet("monde")
-    assert greeter.saluer() == "Bonjour onde!"
+    assert greeter.saluer() == "Bonjour monde!"
