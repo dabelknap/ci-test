@@ -7,3 +7,6 @@ class Greet(object):
 
     def saluer(self):
         return "Bonjour %s!" % self._noun
+
+    def japanese(self):
+        return "Konichiwa %s!" % self._noun

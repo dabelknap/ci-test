@@ -8,3 +8,7 @@ def test_english():
 def test_french():
     greeter = mylib.Greet("monde")
     assert greeter.saluer() == "Bonjour monde!"
+
+def test_japanese():
+    greeter = mylib.Greet("sekai")
+    assert greeter.japanese() == "Konichiwa sekai!"
